@@ -1,0 +1,26 @@
+{
+    "name": "react-test-app",
+    "version": "1.0.0",
+    "description": "Sample react app with node backend for demo purposes",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode development"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chamilu/react-test-app.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/chamilu/react-test-app/issues"
+    },
+    "homepage": "https://github.com/chamilu/react-test-app#readme",
+    "devDependencies": {
+        "clean-webpack-plugin": "^3.0.0",
+        "webpack": "^4.42.0",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.10.3"
+    }
+}
